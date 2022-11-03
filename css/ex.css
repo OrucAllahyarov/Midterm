@@ -1,0 +1,69 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+.main{
+    width: 100%;
+    height: 1000px;
+    background-image: url(../img/landscape.png);
+    background-repeat: no-repeat;
+}
+.r_navbar{
+ width: 100%;  
+ float: left;
+ min-height: 83px;   
+}
+.logo{
+    width: 100%;
+    height: 82px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    margin-right: 10px;
+}
+.menu{
+float: left;
+font-size: medium;
+display: flex;
+width: 100%;
+height: 22px;
+margin-top: 15px;
+}
+.menu ul li{
+    float: left;
+    list-style-type:none;
+    padding-right: 40px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: "Zilla Slab";
+    color: black;
+}
+.menu ul li :nth-child(3){
+    float:left;
+    border-bottom: 3px green 
+}
+menu ul li :before{
+    border-bottom: 2px black;
+}
+.r_c{
+    float: right;
+    position: relative;
+    width: 175px;
+    height: 83px;
+    background-color: darkblue;
+    color: white;
+    letter-spacing: 1px;
+    font-family: "Zilla Slab";
+    right: 0px;
+}
+.r_c span{
+    position: absolute;
+    top: 23px;
+    right: 15px;
+}
+.text2{
+    display: flex;
+    justify-content: center;
+}
+
